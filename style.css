@@ -1,0 +1,22 @@
+body {
+  background-color: lightgray;
+  font-family: "Indie Flower", cursive;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  float: none;
+}
+
+.intro {
+  color: black;
+  clear: left;
+}
