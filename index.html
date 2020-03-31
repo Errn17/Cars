@@ -10,6 +10,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
     <title>Cool Cars</title>
   </head>
   <body>
@@ -82,17 +86,23 @@
       </nav>
     </header>
     <h1>Cool Cars</h1>
-    <div>
-      <p class="intro">
-        <img
-          class="img"
-          src="https://cdn.bmwblog.com/wp-content/uploads/2018/10/white-bmw-435i-modified-aftermarket-stance-super-deep-concave-forgestar-f14-e.jpg"
-          alt="White BMW"
-          style="width:681px;height:454px;"
-        />
-        This is just a site with some cars that I think are super cool, plus
-        some that I hope to own in the future!
-      </p>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <p class="intro">
+            This is just a site with some cars that I think are super cool, plus
+            some that I hope to own in the future!
+          </p>
+        </div>
+        <div class="col-lg-9">
+          <img
+            class="img"
+            src="https://cdn.bmwblog.com/wp-content/uploads/2018/10/white-bmw-435i-modified-aftermarket-stance-super-deep-concave-forgestar-f14-e.jpg"
+            alt="White BMW"
+            style="width:681px;height:454px;"
+          />
+        </div>
+      </div>
     </div>
   </body>
 </html>
